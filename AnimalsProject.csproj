@@ -45,7 +45,7 @@
     <Compile Include="Cow.cs" />
     <Compile Include="Duck.cs" />
     <Compile Include="Frog.cs" />
-    <Compile Include="LAnimal.cs" />
+    <Compile Include="IAnimal.cs" />
     <Compile Include="D:\Program.cs">
       <Link>Program.cs</Link>
     </Compile>
