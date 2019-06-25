@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AnimalsProject
 {
-    interface LAnimal
+    interface IAnimal
     {
         string makeSound();
     }
