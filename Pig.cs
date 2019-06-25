@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AnimalsProject
 {
-    public class Pig:LAnimal
+    public class Pig:IAnimal
     { 
         public string makeSound()
         {
