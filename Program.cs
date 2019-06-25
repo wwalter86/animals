@@ -9,13 +9,13 @@ namespace AnimalsProject
     {
         static void Main(string[] args)
         {
-            List<IAnimal>AnimalsList=new List<LAnimal>();
+            List<IAnimal>AnimalsList=new List<IAnimal>();
             AnimalsList.Add(new Pig());
             AnimalsList.Add(new Cow());
             AnimalsList.Add(new Duck());
             AnimalsList.Add(new Frog());
             
-            foreach (LAnimal animal in AnimalsList)
+            foreach (IAnimal animal in AnimalsList)
             {
                 Console.WriteLine("{0} makes {1}.", animal.GetType().Name, animal.makeSound());
             }
